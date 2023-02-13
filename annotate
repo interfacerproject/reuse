@@ -18,4 +18,4 @@
 
 set -e
 
-reuse annotate -tdefault --copyright-style=string-c -lAGPL-3.0-or-later -c'Dyne.org foundation <foundation@dyne.org>' "$@"
+reuse annotate -tdefault --copyright-style=string-c -lAGPL-3.0-or-later -c'Dyne.org foundation <foundation@dyne.org>.' "$@"

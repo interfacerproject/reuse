@@ -20,7 +20,7 @@ SPDX-License-Identifier: {{ v }}
 {% endfor %}
 {% if "AGPL-3.0-or-later" in spdx_expressions %}
 {% for v in copyright_lines %}
-{{ v }}.
+{{ v }}
 {% endfor %}
 
 This program is free software: you can redistribute it and/or modify
